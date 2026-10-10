@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elionline85.github.io/eerpro/sitemap.xml
