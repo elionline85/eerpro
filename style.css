@@ -201,3 +201,12 @@ code,.mono{font-family:var(--mono);font-size:.92em;background:var(--bg-alt);padd
 .ipad-row{max-width:900px;margin:0 auto}
 @media (max-width:700px){.ipad-row .ipad:nth-child(2){display:none}.ipad-row{max-width:420px}}
 @media (max-width:640px){.card{padding:20px}.section-head{margin-bottom:28px}}
+
+/* Banner consenso cookie (assets/consenso.js). Accetta e Rifiuta hanno la stessa evidenza. */
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:200;max-width:760px;margin:0 auto;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 10px 30px rgba(0,0,0,.18);padding:18px 20px;display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center}
+.cookie-banner p{margin:0 0 .4em;font-size:.93rem;color:var(--ink-2)}
+.cookie-banner p:last-child{margin-bottom:0}
+.cookie-banner__testo{flex:1 1 380px}
+.cookie-banner__azioni{display:flex;gap:10px;flex:0 0 auto}
+.cookie-btn{min-width:110px;justify-content:center;cursor:pointer;font-family:inherit}
+@media (max-width:560px){.cookie-banner__azioni{width:100%}.cookie-btn{flex:1}}
